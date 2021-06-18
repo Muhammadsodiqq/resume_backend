@@ -1,0 +1,24 @@
+{
+  "kind": "singleType",
+  "collectionName": "about_centers",
+  "info": {
+    "name": "About_right",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "dev": {
+      "type": "text",
+      "required": true
+    }
+  }
+}
