@@ -1,0 +1,15 @@
+{
+  "kind": "collectionType",
+  "collectionName": "us",
+  "info": {
+    "name": "me",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {}
+}
