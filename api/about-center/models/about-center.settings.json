@@ -19,6 +19,23 @@
     "dev": {
       "type": "text",
       "required": true
+    },
+    "biografy1": {
+      "type": "text",
+      "required": true
+    },
+    "biografy2": {
+      "type": "text"
+    },
+    "profil_photo": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
     }
   }
 }

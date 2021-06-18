@@ -1,0 +1,37 @@
+{
+  "kind": "collectionType",
+  "collectionName": "infos",
+  "info": {
+    "name": "info"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Name": {
+      "type": "string",
+      "required": false
+    },
+    "Birth": {
+      "type": "string",
+      "required": false
+    },
+    "City": {
+      "type": "string",
+      "required": false
+    },
+    "Email": {
+      "type": "string",
+      "required": false
+    },
+    "Phone": {
+      "type": "string"
+    },
+    "Telegram": {
+      "type": "string"
+    }
+  }
+}
