@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "skills",
+  "info": {
+    "name": "skills"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "skillname": {
+      "type": "string",
+      "required": true
+    },
+    "skillFoiz": {
+      "type": "string",
+      "default": "100%",
+      "required": true
+    }
+  }
+}
