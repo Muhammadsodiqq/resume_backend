@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "certificats",
+  "info": {
+    "name": "CERTIFICATS"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "certificatId": {
+      "type": "string",
+      "required": true
+    },
+    "date": {
+      "type": "string"
+    }
+  }
+}
